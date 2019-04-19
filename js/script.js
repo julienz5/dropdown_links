@@ -9,7 +9,7 @@ $( document ).ready(function() {
 
     $("img").bind("error",function(){
         // Hide image source if not found
-        $(this).attr("src","images/noimage.png");
+        // $(this).attr("src","images/noimage.png");
         $(this).hide();
     });
 
